@@ -1,0 +1,56 @@
+#hashtag{
+    position:fixed;
+    font-size:1.2rem;
+    text-transform:uppercase;
+    font-family:"brandon-grotesque", 'brandon', sans-serif;
+    text-align:center;
+    font-weight:900;
+    letter-spacing:.5em;
+    width:100%;
+    color:#f77878;;
+    right:-48%;
+    top:50%;
+    -ms-transform: rotate(90deg); /* IE 9 */
+    -webkit-transform: rotate(90deg); /* Safari */
+    transform: rotate(90deg);
+    z-index:30;
+}
+
+#Monogram{
+    display:block;
+    width:20rem;
+    height:20rem;
+    position:fixed;
+    left:calc(4.15% - 4rem) ;
+    top:calc(50% - 4rem);
+    z-index:30;
+}
+
+#MonogramImg img{
+    position:relative;
+    top:.4rem;
+    width:15rem;
+    height:15rem;
+    left:.4rem;
+    background-color:transparent;
+}
+
+#Live{
+    position:fixed;
+    font-size:1.2rem;
+    text-transform:uppercase;
+    font-family:"brandon-grotesque", 'brandon', sans-serif;
+    text-align:center;
+    font-weight:900;
+    letter-spacing:.5em;
+    width:100%;
+    color:#f77878;;
+    right:-46%;
+    top:12%;
+    z-index:30;
+}
+
+.error{
+  color: red;
+  text-transform: uppercase;
+}
