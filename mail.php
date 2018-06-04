@@ -1,6 +1,6 @@
 <?php
   extract($_POST);
-  $to = 'temz4rill@gmail.com';
+  $to = 'iketolu@gmail.com';
 //   $to = 'aderibigbe.temilola@yahoo.com';
   $subject = $name.' RSVP';
   $msg = 'Hello, '."\n\n"
