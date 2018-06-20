@@ -155,7 +155,7 @@ figure {
 @media screen and (max-width: 768px) {
   .fh5co-cover,
   .fh5co-hero {
-    height: 700px;
+    height: 200px;
   }
 }
 
@@ -177,7 +177,7 @@ figure {
 
 @media screen and (max-width: 768px) {
   .fh5co-cover {
-    heifght: inherit;
+    height: inherit;
     padding: 3em 0;
   }
 }
@@ -192,9 +192,26 @@ figure {
 
 @media screen and (max-width: 768px) {
   .fh5co-cover .display-t {
-    height: 600px;
+    height: 10px;
+    margin-top: -30px;
+    margin-left: -16px;
   }
 }
+
+@media screen and (max-width: 768px) {
+  #fh5co-live iframe {
+    width: 330px;
+    height: 200px;
+  }
+}
+
+@media screen and (max-width: 568px) {
+  #fh5co-live iframe {
+    width: 280px;
+    height: 200px;
+  }
+}
+
 
 .fh5co-cover .display-tc {
   display: table-cell;
@@ -217,8 +234,11 @@ figure {
 }
 
 @media screen and (max-width: 768px) {
+  .fh5co-cover .display-tc h1 {
+    font-size: 40px;
+  }
   .fh5co-cover .display-tc h2 {
-    font-size: 60px;
+    font-size: 30px;
   }
 }
 
