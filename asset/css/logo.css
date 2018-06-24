@@ -50,6 +50,18 @@
     z-index:30;
 }
 
+@media screen and (max-width: 768px) {
+  #Live {
+    right: -40%;
+  }
+}
+
+@media screen and (max-width: 468px) {
+  #Live {
+    right: -30%;
+  }
+}
+
 .error{
   color: red;
   text-transform: uppercase;
